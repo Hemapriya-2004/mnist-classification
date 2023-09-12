@@ -13,7 +13,7 @@ Digit categorization of scanned handwriting images, together with answer verific
 
 
 ## DESIGN STEPS
-
+```
 STEP 1: Import the required packages
 STEP 2: Load the dataset
 STEP 3: Scale the dataset
@@ -22,7 +22,7 @@ STEP 5: Create the model
 STEP 6: Compile the model
 STEP 7: Fit the model
 STEP 8: Make prediction with test data and with an external data
-
+```
 ## PROGRAM
 ```
 Developed By: R Hemapriya
@@ -142,22 +142,24 @@ print(x_single_prediction)
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
+![i1](https://github.com/Hemapriya-2004/mnist-classification/assets/94184828/1f8bc9fe-b8da-4ab9-9329-d8dd6fbe6ca2)
 
-![output](https://github.com/Hemapriya-2004/mnist-classification/blob/main/i1.png)
+![i2](https://github.com/Hemapriya-2004/mnist-classification/assets/94184828/9d668398-a178-49eb-bae1-db6f6c5c34f0)
 
-![output](https://github.com/Hemapriya-2004/mnist-classification/blob/main/i2.png)
 
 ### Classification Report
+![i3](https://github.com/Hemapriya-2004/mnist-classification/assets/94184828/f32b7b27-512a-4958-9816-db2dbc5f334f)
 
-![output](https://github.com/Hemapriya-2004/mnist-classification/blob/main/i3.png)
 
 ### Confusion Matrix
 
-![output](https://github.com/Hemapriya-2004/mnist-classification/blob/main/i4.png)
+![i4](https://github.com/Hemapriya-2004/mnist-classification/assets/94184828/57f04f56-ca95-4853-9122-454d324ee791)
+
 
 ### New Sample Data Prediction
 
-![output](https://github.com/Hemapriya-2004/mnist-classification/blob/main/i5.png)
+![i5](https://github.com/Hemapriya-2004/mnist-classification/assets/94184828/c41c5fa7-ea26-4a48-bf1c-e7dc467cd5b6)
+
 
 ## RESULT
 Therefore a model has been successfully created for digit classification using mnist dataset.
