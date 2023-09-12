@@ -8,8 +8,9 @@ To Develop a convolutional deep neural network for digit classification and to v
 Digit categorization of scanned handwriting images, together with answer verification. There are a number of handwritten digits in the MNIST dataset. The assignment is to place a handwritten digit picture into one of ten classes that correspond to integer values from 0 to 9, inclusively. The dataset consists of 60,000 handwritten digits that are each 28 by 28 pixels in size. In this case, we construct a convolutional neural network model that can categorise to the relevant numerical value.
 
 ## Neural Network Model
+![i6](https://github.com/Hemapriya-2004/mnist-classification/assets/94184828/a0d12398-f269-4f63-96d7-b410db484ec0)
 
-![output](https://github.com/Hemapriya-2004/mnist-classification/blob/main/i6.png)
+
 
 ## DESIGN STEPS
 
