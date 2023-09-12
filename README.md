@@ -9,7 +9,7 @@ Digit categorization of scanned handwriting images, together with answer verific
 
 ## Neural Network Model
 
-![output]()
+![output](https://github.com/Hemapriya-2004/mnist-classification/blob/main/i6.png)
 
 ## DESIGN STEPS
 
@@ -23,10 +23,11 @@ STEP 7: Fit the model
 STEP 8: Make prediction with test data and with an external data
 
 ## PROGRAM
-
+```
 Developed By: R Hemapriya
 Reg No: 212221230036.
-
+```
+```
 import numpy as np
 from tensorflow import keras
 from tensorflow.keras import layers
@@ -135,27 +136,27 @@ x_single_prediction = np.argmax(
 
 print(x_single_prediction)
 
-
+```
 
 ## OUTPUT
 
 ### Training Loss, Validation Loss Vs Iteration Plot
 
-![output]()
+![output](https://github.com/Hemapriya-2004/mnist-classification/blob/main/i1.png)
 
-![output]()
+![output](https://github.com/Hemapriya-2004/mnist-classification/blob/main/i2.png)
 
 ### Classification Report
 
-![output]()
+![output](https://github.com/Hemapriya-2004/mnist-classification/blob/main/i3.png)
 
 ### Confusion Matrix
 
-![output]()
+![output](https://github.com/Hemapriya-2004/mnist-classification/blob/main/i4.png)
 
 ### New Sample Data Prediction
 
-![output]()
+![output](https://github.com/Hemapriya-2004/mnist-classification/blob/main/i5.png)
 
 ## RESULT
 Therefore a model has been successfully created for digit classification using mnist dataset.
